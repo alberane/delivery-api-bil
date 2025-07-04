@@ -94,11 +94,11 @@ public class ClienteController {
     /**
      * Buscar clientes por nome
      */
-    @GetMapping("/buscar/{nome}")
-    public ResponseEntity<List<Cliente>> buscarPorNome(@RequestParam String nome) {
-        List<Cliente> clientes = clienteService.buscarPorNome(nome);
-        return ResponseEntity.ok(clientes);
-    }
+    // @GetMapping("/buscar/{nome}")
+    // public ResponseEntity<List<Cliente>> buscarPorNome(@RequestParam String nome) {
+    //     List<Cliente> clientes = clienteService.buscarPorNome(nome);
+    //     return ResponseEntity.ok(clientes);
+    // }
 
     /**
      * Buscar cliente por email

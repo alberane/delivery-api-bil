@@ -29,5 +29,65 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+
+# Compilados Java
+*.class
+
+# Logs
+*.log
+logs/
+*.out
+
+# Diretórios de build
+/target/
+/build/
+
+
+# Arquivos do Gradle
+.gradle/
+/build/
+!gradlew
+!gradlew.bat
+
+# Arquivos de IDEs
+### IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+### Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
 .vscode/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Banco H2 (arquivo local)
+*.h2.db
+*.mv.db
+
+# Arquivos de ambiente ou configuração sensível
+.env
+application-dev.properties
+application-prod.properties
+application-*.yml
+application-*.yaml
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+*~
+
+# Teste de cobertura
+jacoco.exec
+
+# Arquivos do Sonar
+.sonar/
